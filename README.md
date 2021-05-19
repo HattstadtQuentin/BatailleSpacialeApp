@@ -32,7 +32,7 @@ Les fonctionnalités :
 - Afficher pour chaque tour quel soldat attaque le quel et le résultat (si un soldat meurt, sinon
 combien il lui reste de santé)
 - Déterminer un favori avant le lancement de bataille et afficher si cela est respecté
-- Afficher les héros de chaque équipe en fonction d’un score déterminé (calcul : santé + dégâts
-* 10). Indiquer un message particulier quand un héros meurt
+- Afficher les héros de chaque équipe en fonction d’un score déterminé (calcul : santé + dégâts * 10). 
+- Indiquer un message particulier quand un héros meurt
 - Quand un rebelle attaque il doit dire « Pour la princesses Organa ! »
 - Quand soldat de l’empire attaque il doit dire « Traitor ! »
