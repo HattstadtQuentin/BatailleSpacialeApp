@@ -31,7 +31,7 @@ namespace BatailleSpacialeApp
         }
         public override string ToString()
         {
-            return this.Matricule + " Vie : " + this.Vie + " Dégats Infligés : " + this.DegatsInf;
+            return this.Matricule + " | Vie : " + this.Vie + " | Dégats Infligés : " + this.DegatsInf;
         }
     }
 
@@ -58,7 +58,7 @@ namespace BatailleSpacialeApp
             {
                 Utilitaires.WriteColor(cible.Matricule + " est mort !\n", cible.Matricule, ConsoleColor.DarkGreen);
                 if (cible.Hero == true)
-                    Utilitaires.WriteColor("Un héro Rebelle vient de mourir !\n", "Soldats", ConsoleColor.DarkGreen);
+                    Utilitaires.WriteColor("Un héro Rebelle vient de mourir !\n", "Rebelle", ConsoleColor.DarkGreen);
             }
             else
             {
@@ -93,7 +93,7 @@ namespace BatailleSpacialeApp
             {
                 Utilitaires.WriteColor(cible.Matricule + " vient de mourir !\n", cible.Matricule, ConsoleColor.DarkRed);
                 if (cible.Hero == true)
-                    Utilitaires.WriteColor("Un héro de l'Empire vient de mourir !\n", "Soldats", ConsoleColor.DarkRed);
+                    Utilitaires.WriteColor("Un héro de l'Empire vient de mourir !\n", "Empire", ConsoleColor.DarkRed);
             }
             else
             {
